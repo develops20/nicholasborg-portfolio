@@ -1,7 +1,7 @@
 body {
   font-family: system-ui, sans-serif;
-  background: #fff;
-  color: #111;
+  background: #000;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,7 @@ body {
 
 main {
   max-width: 600px;
+  padding: 0 1rem;
 }
 
 nav {
@@ -21,7 +22,8 @@ nav {
 nav a {
   margin: 0 0.75rem;
   text-decoration: none;
-  color: #0070f3;
+  color: #1e90ff;
+  font-weight: bold;
 }
 
 nav a:hover {
