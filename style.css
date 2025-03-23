@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #fff;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+}
+
+nav {
+  margin-top: 1.5rem;
+}
+
+nav a {
+  margin: 0 0.75rem;
+  text-decoration: none;
+  color: #0070f3;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
